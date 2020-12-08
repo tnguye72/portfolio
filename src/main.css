@@ -126,6 +126,10 @@
     .intro-text {
         padding-top: 20px;
     }
+
+    .about-section {
+        max-width: 90vw;
+    }
     
 }
 
@@ -144,6 +148,13 @@
     .intro-text {
         padding-top: 75px;
     }
+    .about-section {
+        max-width: 30vw;
+    }
+
+    .about-container {
+        flex-direction: row;
+    }
 }
 
 @media screen and (max-width: 634px) { /* small screens */
@@ -160,6 +171,14 @@
     .screenshot {
         max-width: 90vw;
     }
+
+    .about-section {
+        max-width: 90vw;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
 }
 
 .made-w-love {
@@ -168,3 +187,12 @@
     padding: 30px;
     bottom: 0px; 
 }
+
+.about-container {
+    display: flex;
+}
+
+.about-section {
+    min-width: 300px;
+}
+
