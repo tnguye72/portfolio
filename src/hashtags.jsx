@@ -76,7 +76,7 @@ within one day of any event. For each social movement, we conducted 3 t-tests:
                 Working on this project was incredibly rewarding. We were able to choose an interesting and relevant research question, conduct our own data collection and analysis, and visualize
                 our results in a meaningful way. Although creating the python scripts for data collection, visualization, and statistical calculations was certainly time-consuming, I learned a lot
                 about the work that goes into data science research. In the future, it would be interesting to expand this project to involve recent events and see what the data tells us now, as 
-                this project was done before the recent surge of the BLM movement in the summer of 2020 and other momentous events in 2020, such as COVID-19 pandemic election and U.S. presidential election.
+                this project was done before the recent surge of the BLM movement in the summer of 2020 and other momentous events in 2020, such as COVID-19 pandemic and U.S. presidential election.
                 Future work might also include other social media platforms, such as Facebook and Instagram. 
             </Typography>
 
