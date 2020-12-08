@@ -5,7 +5,7 @@ import './main.css';
 const About = () => {
     return (
         <div className="project-div">
-            <Typography variant='h4' className="project-subtitle"><b>About Me</b></Typography>
+            <Typography variant='h4' className="project-subtitle">About Me</Typography>
             <div className="about-container">
                 <div className="about-section" style={{backgroundColor: '#b19cd9'}}>
                 <Typography className="text">
