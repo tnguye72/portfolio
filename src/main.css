@@ -1,0 +1,170 @@
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav-bar {
+    width: 100%;
+    margin: 0;
+}
+
+.intro-text {
+    text-align: center;
+    
+}
+
+.intro-text-sub {
+    text-align: center;
+    
+    
+    color: #707070;
+}
+
+.pieces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .project {
+      margin: 30px;
+      border-radius: 50px;
+      
+  }
+
+
+.project-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.project-subtitle {
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.project-div {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.screenshot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.single-screenshot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    max-width: 500px;
+}
+
+.screenshot {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.poster-container {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poster {
+    max-width: 70vw;
+    align-items: center;
+}
+
+
+
+.text {
+    padding: 10px;
+}
+
+.table {
+    margin: 10px;
+}
+
+@media screen and (max-width: 990px) { /* medium screens */
+    .project-div {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .project-title, .intro-text {
+        font-size: 40px!important;
+    }
+    .project-subtitle {
+        font-size: 30px!important;
+    }
+
+    .intro-text-sub {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+
+    .intro-text {
+        padding-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 991px) { /* large screens */
+    .project-div {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .intro-text-sub {
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 25px;
+    }
+
+    .intro-text {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (max-width: 634px) { /* small screens */
+	.project-title, .intro-text {
+        font-size: 30px!important;
+    }
+    .project-subtitle, .intro-text-sub {
+        font-size: 20px!important;
+    }
+
+    .project-subtitle {
+        font-weight: bold!important;
+    }
+    .screenshot {
+        max-width: 90vw;
+    }
+}
+
+.made-w-love {
+    font-size: 12px!important;
+    text-align: right;
+    padding: 30px;
+    bottom: 0px; 
+}
