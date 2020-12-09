@@ -58,6 +58,10 @@ const Home = () => {
             <Typography className="intro-text" variant='h2'>Hi there, my name is Phil.</Typography>
             <Typography className="intro-text-sub" variant='h5'>I'm a student at Brown University mainly working in AI/Machine Learning and Data Science
             <p>... but currently learning UI/UX design.</p></Typography>
+
+            <Typography className="view-my-work" style={{textAlign: 'center'}}>
+            View my work below!
+            </Typography>
             <div className="pieces">
                 {pieces.map(piece => 
     <div className="project">            
